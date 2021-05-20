@@ -26,11 +26,11 @@ function gestionarFicheroXML(xml){
     let capa = document.querySelector("div:nth-child(1)") 
     capa.addEventListener("click",CargarFichero);
 }
-function numeroMinimo(libros){
+function Minimo(libros){
   let precios = []
 
-    for (let j = 0; j < libros.length; j++) {
-        precios.push(+libros[j].querySelector("precio").textContent)
+    for (let i = 0; i < libros.length; i++) {
+        precios.push(+libros[i].querySelector("precio").textContent)
     }
    return Math.min(...precios)
 
