@@ -1,5 +1,5 @@
 'use strict'
-loadLDocA(fichero,"xml");
+loadLDocA(libros.xml,"xml");
 function gestionarFicheroXML(xml){
 
     let capaVacia = document.querySelector("#ficheroXML");
