@@ -1,7 +1,7 @@
 LoadLDocA("libros.xml", "xml");
 function gestionarFicheroXML(xml){
 
-    let capaVacia = document.querySelector("#ficheroXML");
+    let capaVacia = document.querySelector("#librosXML");
 
 	let libros = xml.querySelectorAll("libro");
 
