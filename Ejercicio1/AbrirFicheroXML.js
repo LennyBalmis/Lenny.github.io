@@ -1,9 +1,9 @@
 'use strict'
+loadDocA("libros.xml", "xml")
 function Cargar(){
 
     loadDocA("libros.xml","xml");
 }
-loadDocA("libros.xml", "xml")
 function gestionarFicheroXML(xml){
     let tabla = document.querySelector(".table");
     let capaVacia = " ";
