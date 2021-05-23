@@ -7,18 +7,31 @@ body
     min-height: 100vh;
     max-width: 100vw;
 }
+main
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    max-width: 100vw;
+}
 .table
 {
     display: table;
     border: 1px solid black;
 }
-
+.capaVacia
+{
+    display:table-row;
+}
 .celda
 {
     display: table-cell;
     border: 1px solid black;
 }
-.fila
+.Barato
 {
-    display: row;
+    display: table-cell;
+    background-color: green;
 }

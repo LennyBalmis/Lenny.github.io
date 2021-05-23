@@ -21,13 +21,11 @@ function gestionarFicheroXML(xml){
 		capaVacia += "<div class='celda'>" + libros[i].querySelector("paginaWeb").textContent + "</div>";
 		if(minimo == +libros[i].querySelector("precio").textContent){
             capaVacia += "<div class='Barato'>" + libros[i].querySelector("precio").textContent + "</div>";
-        }else{
-            capaVacia += "<div class='celda'>" + libros[i].querySelector("precio").textContent + "</div>";
         }
-        capaVacia += "<div class='fila'> </div>"
     }
 
     tabla.innerHTML = capaVacia;
+    
     let capa = document.querySelector("div:nth-child(1)") 
     capa.addEventListener("click",Cargar);
 }
